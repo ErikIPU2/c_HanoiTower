@@ -13,16 +13,18 @@ void freeTower(Tower*);
 void gerateTower(Tower*, int);
 void gerateTower_empty(Tower*, int);
 void gerate(Tower*, Tower*, Tower*, int);
+void gerate_noMark(Tower*, Tower*, Tower*);
 void printLine(int, int, int, char, char);
 void printNumber(int, int);
 void printSelection(int, int);
+void clearScreen();
 
 
 
 int main() {
 
     Tower t1, t2, t3;
-    int len, input = 0;
+    int len, input_sel = 0, input_mov = 0;
 
     printf("Digite o tamanho da torre: ");
     do {
@@ -37,12 +39,19 @@ int main() {
     gerateTower_empty(&t3, len);
 
     while (true) {
-        gerate(&t1, &t2, &t3, input);
+        gerate_noMark(&t1, &t2, &t3);
 
+        // if (input_sel < 1 || input_sel > 3) {
+        //     printf("Torre selecionada invalida\n");
+        // }
         printf("Digite qual torre deseja selecionar: ");
-        scanf("%d", &input);
+        scanf("%d", &input_sel);
 
+        gerate(&t1, &t2, &t3, input_sel);
+        printf("Digite qual torre deseja mover: ");
+        scanf("%d", &input_mov);
 
+        
     }
 
 
@@ -75,9 +84,25 @@ void gerateTower_empty(Tower* tower, int len) {
 }
 
 void gerate(Tower* t1, Tower* t2, Tower* t3, int selection) {
+    clearScreen();
     if (selection > 0 && selection <= 3) {
         printSelection(t1->len, selection);
     }
+    for (int i = 0; i < t1->len; i++) {
+        printLine(t1->tower[i], i, t1->len, '-', '|');
+        printf("   ");
+        printLine(t2->tower[i], i, t2->len, '-', '|');
+        printf("   ");
+        printLine(t3->tower[i], i, t3->len, '-', '|');
+        printf("\n");
+    }
+    printf("\n");
+    printNumber(t1->len, 3);
+    printf("\n");
+}
+
+void gerate_noMark(Tower* t1, Tower* t2, Tower* t3) {
+    clearScreen();
     for (int i = 0; i < t1->len; i++) {
         printLine(t1->tower[i], i, t1->len, '-', '|');
         printf("   ");
@@ -148,7 +173,7 @@ void printSelection(int t_len, int pos) {
             printf(" ");
         }
         if (pos == cont) {
-            printf("^");
+            printf("⌄");
         } else {
             printf(" ");
         }
@@ -160,4 +185,8 @@ void printSelection(int t_len, int pos) {
 
     printf("\n");
     
+}
+
+void clearScreen() {
+    printf("\033[2J");
 }
