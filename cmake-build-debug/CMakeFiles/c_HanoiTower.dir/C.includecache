@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/erikborella/CLionProjects/c_HanoiTower/main.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+structs/towersArray.c
+/home/erikborella/CLionProjects/c_HanoiTower/structs/towersArray.c
+structs/util/creatorHelper.h
+/home/erikborella/CLionProjects/c_HanoiTower/structs/util/creatorHelper.h
+
+/home/erikborella/CLionProjects/c_HanoiTower/structs/tower.c
+
+/home/erikborella/CLionProjects/c_HanoiTower/structs/towersArray.c
+tower.c
+/home/erikborella/CLionProjects/c_HanoiTower/structs/tower.c
+
+/home/erikborella/CLionProjects/c_HanoiTower/structs/util/creatorHelper.h
+

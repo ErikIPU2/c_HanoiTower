@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/c_HanoiTower.dir/main.c.o CMakeFiles/c_HanoiTower.dir/structs/tower.c.o CMakeFiles/c_HanoiTower.dir/structs/towersArray.c.o CMakeFiles/c_HanoiTower.dir/structs/util/creatorHelper.c.o  -o c_HanoiTower 
