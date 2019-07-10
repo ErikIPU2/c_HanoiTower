@@ -78,6 +78,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/initTower.c">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/printer.c">
+			<Option target="c_HanoiTower"/>
+		</Unit>
 		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/main.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
@@ -87,10 +99,10 @@
 		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/towersArray.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/util/creatorHelper.c">
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/util/creatorHelper.h">
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/util/src/creatorHelper.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
 		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/CMakeLists.txt">

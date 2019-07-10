@@ -123,6 +123,60 @@ c_HanoiTower/fast:
 	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/build
 .PHONY : c_HanoiTower/fast
 
+hanoiUtils/src/initTower.o: hanoiUtils/src/initTower.c.o
+
+.PHONY : hanoiUtils/src/initTower.o
+
+# target to build an object file
+hanoiUtils/src/initTower.c.o:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/initTower.c.o
+.PHONY : hanoiUtils/src/initTower.c.o
+
+hanoiUtils/src/initTower.i: hanoiUtils/src/initTower.c.i
+
+.PHONY : hanoiUtils/src/initTower.i
+
+# target to preprocess a source file
+hanoiUtils/src/initTower.c.i:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/initTower.c.i
+.PHONY : hanoiUtils/src/initTower.c.i
+
+hanoiUtils/src/initTower.s: hanoiUtils/src/initTower.c.s
+
+.PHONY : hanoiUtils/src/initTower.s
+
+# target to generate assembly for a file
+hanoiUtils/src/initTower.c.s:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/initTower.c.s
+.PHONY : hanoiUtils/src/initTower.c.s
+
+hanoiUtils/src/printer.o: hanoiUtils/src/printer.c.o
+
+.PHONY : hanoiUtils/src/printer.o
+
+# target to build an object file
+hanoiUtils/src/printer.c.o:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o
+.PHONY : hanoiUtils/src/printer.c.o
+
+hanoiUtils/src/printer.i: hanoiUtils/src/printer.c.i
+
+.PHONY : hanoiUtils/src/printer.i
+
+# target to preprocess a source file
+hanoiUtils/src/printer.c.i:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.i
+.PHONY : hanoiUtils/src/printer.c.i
+
+hanoiUtils/src/printer.s: hanoiUtils/src/printer.c.s
+
+.PHONY : hanoiUtils/src/printer.s
+
+# target to generate assembly for a file
+hanoiUtils/src/printer.c.s:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.s
+.PHONY : hanoiUtils/src/printer.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -204,32 +258,32 @@ structs/towersArray.c.s:
 	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/towersArray.c.s
 .PHONY : structs/towersArray.c.s
 
-structs/util/creatorHelper.o: structs/util/creatorHelper.c.o
+structs/util/src/creatorHelper.o: structs/util/src/creatorHelper.c.o
 
-.PHONY : structs/util/creatorHelper.o
+.PHONY : structs/util/src/creatorHelper.o
 
 # target to build an object file
-structs/util/creatorHelper.c.o:
-	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/util/creatorHelper.c.o
-.PHONY : structs/util/creatorHelper.c.o
+structs/util/src/creatorHelper.c.o:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/util/src/creatorHelper.c.o
+.PHONY : structs/util/src/creatorHelper.c.o
 
-structs/util/creatorHelper.i: structs/util/creatorHelper.c.i
+structs/util/src/creatorHelper.i: structs/util/src/creatorHelper.c.i
 
-.PHONY : structs/util/creatorHelper.i
+.PHONY : structs/util/src/creatorHelper.i
 
 # target to preprocess a source file
-structs/util/creatorHelper.c.i:
-	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/util/creatorHelper.c.i
-.PHONY : structs/util/creatorHelper.c.i
+structs/util/src/creatorHelper.c.i:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/util/src/creatorHelper.c.i
+.PHONY : structs/util/src/creatorHelper.c.i
 
-structs/util/creatorHelper.s: structs/util/creatorHelper.c.s
+structs/util/src/creatorHelper.s: structs/util/src/creatorHelper.c.s
 
-.PHONY : structs/util/creatorHelper.s
+.PHONY : structs/util/src/creatorHelper.s
 
 # target to generate assembly for a file
-structs/util/creatorHelper.c.s:
-	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/util/creatorHelper.c.s
-.PHONY : structs/util/creatorHelper.c.s
+structs/util/src/creatorHelper.c.s:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/util/src/creatorHelper.c.s
+.PHONY : structs/util/src/creatorHelper.c.s
 
 # Help Target
 help:
@@ -240,6 +294,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... c_HanoiTower"
 	@echo "... edit_cache"
+	@echo "... hanoiUtils/src/initTower.o"
+	@echo "... hanoiUtils/src/initTower.i"
+	@echo "... hanoiUtils/src/initTower.s"
+	@echo "... hanoiUtils/src/printer.o"
+	@echo "... hanoiUtils/src/printer.i"
+	@echo "... hanoiUtils/src/printer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -249,9 +309,9 @@ help:
 	@echo "... structs/towersArray.o"
 	@echo "... structs/towersArray.i"
 	@echo "... structs/towersArray.s"
-	@echo "... structs/util/creatorHelper.o"
-	@echo "... structs/util/creatorHelper.i"
-	@echo "... structs/util/creatorHelper.s"
+	@echo "... structs/util/src/creatorHelper.o"
+	@echo "... structs/util/src/creatorHelper.i"
+	@echo "... structs/util/src/creatorHelper.s"
 .PHONY : help
 
 

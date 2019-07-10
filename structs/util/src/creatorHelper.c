@@ -3,16 +3,16 @@
 //
 
 #include <stdlib.h>
-#include "../towersArray.c"
+#include "../../towersArray.c"
 
-#include "creatorHelper.h"
+#include "../include/creatorHelper.h"
 
 Tower createTower(int len) {
     const int ALLOC_SIZE = len * sizeof(int);
 
     Tower tower;
 
-    tower.Tower = (int*) malloc(ALLOC_SIZE);
+    tower.tower = (int*) malloc(ALLOC_SIZE);
     tower.len = len;
     tower.pointer = len -1;
 
@@ -20,7 +20,7 @@ Tower createTower(int len) {
 }
 
 void freeTower(Tower *tower) {
-    free(tower->Tower);
+    free(tower->tower);
 }
 
 TowersArray createTowersArray(len) {

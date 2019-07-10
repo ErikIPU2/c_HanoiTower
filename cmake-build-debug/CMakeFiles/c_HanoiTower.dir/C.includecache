@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h
+
+/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
+
 /home/erikborella/CLionProjects/c_HanoiTower/main.c
 stdio.h
 -
@@ -15,8 +19,12 @@ stdbool.h
 -
 structs/towersArray.c
 /home/erikborella/CLionProjects/c_HanoiTower/structs/towersArray.c
-structs/util/creatorHelper.h
-/home/erikborella/CLionProjects/c_HanoiTower/structs/util/creatorHelper.h
+structs/util/include/creatorHelper.h
+/home/erikborella/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h
+hanoiUtils/include/initTower.h
+/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h
+hanoiUtils/include/printer.h
+/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
 
 /home/erikborella/CLionProjects/c_HanoiTower/structs/tower.c
 
@@ -24,5 +32,5 @@ structs/util/creatorHelper.h
 tower.c
 /home/erikborella/CLionProjects/c_HanoiTower/structs/tower.c
 
-/home/erikborella/CLionProjects/c_HanoiTower/structs/util/creatorHelper.h
+/home/erikborella/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h
 

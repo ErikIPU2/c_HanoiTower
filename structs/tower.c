@@ -3,7 +3,7 @@
 //
 
 typedef struct Tower {
-    int* Tower;
+    int* tower;
     int len;
     int pointer;
 } Tower;
