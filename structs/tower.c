@@ -2,7 +2,7 @@
 // Created by erikborella on 09/07/19.
 //
 
-typedef struct Tower {
+typedef struct {
     int* tower;
     int len;
     int pointer;

@@ -20,6 +20,8 @@ void printTowers(TowersArray *towersArray, int selection) {
         printLine(towersArray, i, '-', '|');
         printf("\n");
     }
+    printNumber(towersArray);
+    printf("\n\n");
 }
 
 void printLine(TowersArray *towersArray, int index, char style, char emptyStyle) {
@@ -41,7 +43,7 @@ void printLine(TowersArray *towersArray, int index, char style, char emptyStyle)
             }
 
         } else {
-            int len = (tower->len - (index + 1));
+            int len = (tower->len * 2 - line) / 2;
 
             for (int i = 0; i < len; i++) {
                 printf(" ");
@@ -82,4 +84,23 @@ void printSelection(TowersArray *towersArray, int selection) {
     }
 
     printf("\n");
+}
+
+void printNumber(TowersArray *towersArray) {
+    int len = (towersArray->towers->len * 2 - 1) / 2;
+
+    for (int cont = 1; cont <= towersArray->len; cont++) {
+        for (int i = 0; i < len; i++) {
+            printf(" ");
+        }
+
+        printf("%d", cont);
+
+        for (int i = 0; i < len; i++) {
+            printf(" ");
+        }
+
+        printf("   ");
+    }
+
 }

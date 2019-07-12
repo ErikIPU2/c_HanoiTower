@@ -135,6 +135,32 @@ CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/printer.c -o CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.s
 
+CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.o: CMakeFiles/c_HanoiTower.dir/flags.make
+CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.o: ../hanoiUtils/src/gameLogics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.o   -c /home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/gameLogics.c
+
+CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/gameLogics.c > CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.i
+
+CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/gameLogics.c -o CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.s
+
+CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o: CMakeFiles/c_HanoiTower.dir/flags.make
+CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o: ../menus/lang/src/languages.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o   -c /home/erikborella/CLionProjects/c_HanoiTower/menus/lang/src/languages.c
+
+CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/erikborella/CLionProjects/c_HanoiTower/menus/lang/src/languages.c > CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.i
+
+CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/erikborella/CLionProjects/c_HanoiTower/menus/lang/src/languages.c -o CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.s
+
 # Object files for target c_HanoiTower
 c_HanoiTower_OBJECTS = \
 "CMakeFiles/c_HanoiTower.dir/main.c.o" \
@@ -142,7 +168,9 @@ c_HanoiTower_OBJECTS = \
 "CMakeFiles/c_HanoiTower.dir/structs/towersArray.c.o" \
 "CMakeFiles/c_HanoiTower.dir/structs/util/src/creatorHelper.c.o" \
 "CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/initTower.c.o" \
-"CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o"
+"CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o" \
+"CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.o" \
+"CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o"
 
 # External object files for target c_HanoiTower
 c_HanoiTower_EXTERNAL_OBJECTS =
@@ -153,9 +181,11 @@ c_HanoiTower: CMakeFiles/c_HanoiTower.dir/structs/towersArray.c.o
 c_HanoiTower: CMakeFiles/c_HanoiTower.dir/structs/util/src/creatorHelper.c.o
 c_HanoiTower: CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/initTower.c.o
 c_HanoiTower: CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o
+c_HanoiTower: CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.o
+c_HanoiTower: CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o
 c_HanoiTower: CMakeFiles/c_HanoiTower.dir/build.make
 c_HanoiTower: CMakeFiles/c_HanoiTower.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable c_HanoiTower"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable c_HanoiTower"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_HanoiTower.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

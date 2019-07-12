@@ -29,7 +29,7 @@
 			</Target>
 			<Target title="c_HanoiTower">
 				<Option output="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/c_HanoiTower" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug"/>
+				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/dist"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -49,7 +49,7 @@
 			</Target>
 			<Target title="c_HanoiTower/fast">
 				<Option output="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/c_HanoiTower" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug"/>
+				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/dist"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -78,10 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/gameLogics.h">
+			<Option target="c_HanoiTower"/>
+		</Unit>
 		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h">
 			<Option target="c_HanoiTower"/>
 		</Unit>
 		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/gameLogics.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
 		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/initTower.c">
@@ -91,6 +97,12 @@
 			<Option target="c_HanoiTower"/>
 		</Unit>
 		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/main.c">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/menus/lang/include/languages.h">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/menus/lang/src/languages.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
 		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/tower.c">

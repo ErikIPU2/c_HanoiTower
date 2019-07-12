@@ -6,19 +6,15 @@
 #include "structs/util/include/creatorHelper.h"
 #include "hanoiUtils/include/initTower.h"
 #include "hanoiUtils/include/printer.h"
+#include "hanoiUtils/include/gameLogics.h"
+#include "menus/lang/include/languages.h"
+#include <string.h>
 
-int numberTower = 7;
-int towerSize = 6;
+int numberTower = 3;
+int towerSize = 4;
 
 int main() {
-    TowersArray towersArray = createTowersArray(numberTower);
 
-    for (int i = 0; i < towersArray.len; i++) {
-        towersArray.towers[i] = createTower(towerSize);
-    }
-
-    initTowers(&towersArray);
-    printTowers(&towersArray, 10);
-
+    
     return 0;
 }

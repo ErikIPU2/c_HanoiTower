@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debu
 CMakeFiles/c_HanoiTower.dir/all:
 	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/depend
 	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target c_HanoiTower"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target c_HanoiTower"
 .PHONY : CMakeFiles/c_HanoiTower.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/c_HanoiTower.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/c_HanoiTower.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/c_HanoiTower.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/c_HanoiTower.dir/rule

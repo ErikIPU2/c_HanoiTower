@@ -4,7 +4,7 @@
 
 #include "tower.c"
 
-typedef struct TowersArray {
+typedef struct {
     Tower* towers;
     int len;
 } TowersArray;

@@ -123,6 +123,33 @@ c_HanoiTower/fast:
 	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/build
 .PHONY : c_HanoiTower/fast
 
+hanoiUtils/src/gameLogics.o: hanoiUtils/src/gameLogics.c.o
+
+.PHONY : hanoiUtils/src/gameLogics.o
+
+# target to build an object file
+hanoiUtils/src/gameLogics.c.o:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.o
+.PHONY : hanoiUtils/src/gameLogics.c.o
+
+hanoiUtils/src/gameLogics.i: hanoiUtils/src/gameLogics.c.i
+
+.PHONY : hanoiUtils/src/gameLogics.i
+
+# target to preprocess a source file
+hanoiUtils/src/gameLogics.c.i:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.i
+.PHONY : hanoiUtils/src/gameLogics.c.i
+
+hanoiUtils/src/gameLogics.s: hanoiUtils/src/gameLogics.c.s
+
+.PHONY : hanoiUtils/src/gameLogics.s
+
+# target to generate assembly for a file
+hanoiUtils/src/gameLogics.c.s:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.s
+.PHONY : hanoiUtils/src/gameLogics.c.s
+
 hanoiUtils/src/initTower.o: hanoiUtils/src/initTower.c.o
 
 .PHONY : hanoiUtils/src/initTower.o
@@ -203,6 +230,33 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/main.c.s
 .PHONY : main.c.s
+
+menus/lang/src/languages.o: menus/lang/src/languages.c.o
+
+.PHONY : menus/lang/src/languages.o
+
+# target to build an object file
+menus/lang/src/languages.c.o:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o
+.PHONY : menus/lang/src/languages.c.o
+
+menus/lang/src/languages.i: menus/lang/src/languages.c.i
+
+.PHONY : menus/lang/src/languages.i
+
+# target to preprocess a source file
+menus/lang/src/languages.c.i:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.i
+.PHONY : menus/lang/src/languages.c.i
+
+menus/lang/src/languages.s: menus/lang/src/languages.c.s
+
+.PHONY : menus/lang/src/languages.s
+
+# target to generate assembly for a file
+menus/lang/src/languages.c.s:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.s
+.PHONY : menus/lang/src/languages.c.s
 
 structs/tower.o: structs/tower.c.o
 
@@ -294,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... c_HanoiTower"
 	@echo "... edit_cache"
+	@echo "... hanoiUtils/src/gameLogics.o"
+	@echo "... hanoiUtils/src/gameLogics.i"
+	@echo "... hanoiUtils/src/gameLogics.s"
 	@echo "... hanoiUtils/src/initTower.o"
 	@echo "... hanoiUtils/src/initTower.i"
 	@echo "... hanoiUtils/src/initTower.s"
@@ -303,6 +360,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... menus/lang/src/languages.o"
+	@echo "... menus/lang/src/languages.i"
+	@echo "... menus/lang/src/languages.s"
 	@echo "... structs/tower.o"
 	@echo "... structs/tower.i"
 	@echo "... structs/tower.s"
