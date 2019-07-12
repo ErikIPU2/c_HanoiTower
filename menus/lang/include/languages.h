@@ -20,7 +20,7 @@ extern LanguageStruct languages[MAX_LANGUAGE_NUMBER];
 
 void addLanguage(LanguageStruct language);
 bool setLanguage(int index);
-LanguageStruct getActualLanguage();
-char** getLanguages();
+LanguageStruct getActualLanguage(void);
+char** getLanguages(void);
 
 #endif //C_HANOITOWER_LANGUAGES_H

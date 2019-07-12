@@ -31,11 +31,11 @@ bool setLanguage(int index) {
     return false;
 }
 
-LanguageStruct getActualLanguage() {
+LanguageStruct getActualLanguage(void) {
     return languages[actualLanguage];
 }
 
-char** getLanguages() {
+char** getLanguages(void) {
     free(lastLanguageGerate);
     char** strings = malloc(sizeof(char*) * languagePointer-1);
     for (int i = 0; i < languagePointer; i++) {
