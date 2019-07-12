@@ -2,14 +2,12 @@
 // Created by erikborella on 09/07/19.
 //
 
-#include "stdio.h"
+#include <stdio.h>
+#include <stdbool.h>
 #include "../../structs/towersArray.c"
+#include "../../menus/include/menuHelper.h"
 
 #include "../include/printer.h"
-
-void clearScreen(void) {
-    printf("\033[2J");
-}
 
 void printTowers(TowersArray *towersArray, int selection) {
     clearScreen();
