@@ -12,7 +12,7 @@
 void printTowers(TowersArray *towersArray, int selection) {
     clearScreen();
     if (selection > 0 && selection <= towersArray->len) {
-        printSelection(towersArray, selection);
+        printSelection(towersArray, selection, '^');
     }
     for (int i = 0; i < towersArray->towers->len; i++) {
         printLine(towersArray, i, '-', '|');
@@ -60,7 +60,7 @@ void printLine(TowersArray *towersArray, int index, char style, char emptyStyle)
 }
 
 
-void printSelection(TowersArray *towersArray, int selection) {
+void printSelection(TowersArray *towersArray, int selection, char selectionStyle) {
     int len = (towersArray->towers->len * 2 - 1) / 2;
 
     for (int cont = 1; cont <= towersArray->len; cont++) {
@@ -69,7 +69,7 @@ void printSelection(TowersArray *towersArray, int selection) {
         }
 
         if (selection == cont) {
-            printf("⌄");
+            printf("%c", selectionStyle);
         } else {
             printf(" ");
         }

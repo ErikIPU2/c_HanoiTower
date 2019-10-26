@@ -25,7 +25,6 @@ int menu(char* message, char* prompt, char* error, int minOption, int maxOption)
     bool checker = false;
 
     while (!checker) {
-        clearScreen();
         printf("%s\n", message);
         printf("%s", prompt);
 
@@ -37,4 +36,10 @@ int menu(char* message, char* prompt, char* error, int minOption, int maxOption)
     }
 
     return option;
+}
+
+void pause(char *message) {
+    printf("%s", message);
+    char buff[255];
+    scanf(" %s", buff);
 }

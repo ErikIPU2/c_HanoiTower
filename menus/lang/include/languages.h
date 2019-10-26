@@ -9,6 +9,19 @@
 
 typedef struct {
     char *langName;
+    char *introMenu;
+    char *optionMenu;
+    char *promptError;
+    char *promptMenu;
+    char *promptChangeNumberTower;
+    char *changeTowerStylesMenu;
+    char *promptChangeValue;
+    char *promptPause;
+    char *instructionsMenu;
+    char *promptTowerSize;
+    char *promptSelectTower;
+    char *selectTowerError;
+    char *moveTowerError;
 } LanguageStruct;
 
 extern unsigned int languagePointer;
@@ -19,7 +32,7 @@ extern char** lastLanguageGerate;
 extern LanguageStruct languages[MAX_LANGUAGE_NUMBER];
 
 void addLanguage(LanguageStruct language);
-bool setLanguage(int index);
+_Bool setLanguage(int index);
 LanguageStruct getActualLanguage(void);
 char** getLanguages(void);
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/73/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/erik/CLion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/73/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/erik/CLion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/erikborella/CLionProjects/c_HanoiTower
+CMAKE_SOURCE_DIR = /home/erik/CLionProjects/c_HanoiTower
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug
+CMAKE_BINARY_DIR = /home/erik/CLionProjects/c_HanoiTower/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debu
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/73/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/erik/CLion/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/73/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/erik/CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles /home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -258,6 +258,87 @@ menus/lang/src/languages.c.s:
 	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.s
 .PHONY : menus/lang/src/languages.c.s
 
+menus/src/menu.o: menus/src/menu.c.o
+
+.PHONY : menus/src/menu.o
+
+# target to build an object file
+menus/src/menu.c.o:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o
+.PHONY : menus/src/menu.c.o
+
+menus/src/menu.i: menus/src/menu.c.i
+
+.PHONY : menus/src/menu.i
+
+# target to preprocess a source file
+menus/src/menu.c.i:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.i
+.PHONY : menus/src/menu.c.i
+
+menus/src/menu.s: menus/src/menu.c.s
+
+.PHONY : menus/src/menu.s
+
+# target to generate assembly for a file
+menus/src/menu.c.s:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.s
+.PHONY : menus/src/menu.c.s
+
+menus/src/menuHelper.o: menus/src/menuHelper.c.o
+
+.PHONY : menus/src/menuHelper.o
+
+# target to build an object file
+menus/src/menuHelper.c.o:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/src/menuHelper.c.o
+.PHONY : menus/src/menuHelper.c.o
+
+menus/src/menuHelper.i: menus/src/menuHelper.c.i
+
+.PHONY : menus/src/menuHelper.i
+
+# target to preprocess a source file
+menus/src/menuHelper.c.i:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/src/menuHelper.c.i
+.PHONY : menus/src/menuHelper.c.i
+
+menus/src/menuHelper.s: menus/src/menuHelper.c.s
+
+.PHONY : menus/src/menuHelper.s
+
+# target to generate assembly for a file
+menus/src/menuHelper.c.s:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/menus/src/menuHelper.c.s
+.PHONY : menus/src/menuHelper.c.s
+
+structs/styles.o: structs/styles.c.o
+
+.PHONY : structs/styles.o
+
+# target to build an object file
+structs/styles.c.o:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/styles.c.o
+.PHONY : structs/styles.c.o
+
+structs/styles.i: structs/styles.c.i
+
+.PHONY : structs/styles.i
+
+# target to preprocess a source file
+structs/styles.c.i:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/styles.c.i
+.PHONY : structs/styles.c.i
+
+structs/styles.s: structs/styles.c.s
+
+.PHONY : structs/styles.s
+
+# target to generate assembly for a file
+structs/styles.c.s:
+	$(MAKE) -f CMakeFiles/c_HanoiTower.dir/build.make CMakeFiles/c_HanoiTower.dir/structs/styles.c.s
+.PHONY : structs/styles.c.s
+
 structs/tower.o: structs/tower.c.o
 
 .PHONY : structs/tower.o
@@ -363,6 +444,15 @@ help:
 	@echo "... menus/lang/src/languages.o"
 	@echo "... menus/lang/src/languages.i"
 	@echo "... menus/lang/src/languages.s"
+	@echo "... menus/src/menu.o"
+	@echo "... menus/src/menu.i"
+	@echo "... menus/src/menu.s"
+	@echo "... menus/src/menuHelper.o"
+	@echo "... menus/src/menuHelper.i"
+	@echo "... menus/src/menuHelper.s"
+	@echo "... structs/styles.o"
+	@echo "... structs/styles.i"
+	@echo "... structs/styles.s"
 	@echo "... structs/tower.o"
 	@echo "... structs/tower.i"
 	@echo "... structs/tower.s"

@@ -7,6 +7,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o"
   "CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/gameLogics.c.o"
   "CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o"
+  "CMakeFiles/c_HanoiTower.dir/menus/src/menuHelper.c.o"
+  "CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o"
+  "CMakeFiles/c_HanoiTower.dir/structs/styles.c.o"
   "c_HanoiTower.pdb"
   "c_HanoiTower"
 )

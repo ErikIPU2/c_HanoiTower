@@ -7,5 +7,6 @@
 
 bool checkMove(TowersArray*, int select, int to);
 bool move(TowersArray*, int select, int to);
+bool isWin(TowersArray*);
 
 #endif //C_HANOITOWER_GAMELOGICS_H

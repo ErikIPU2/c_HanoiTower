@@ -8,5 +8,6 @@
 void clearScreen(void);
 bool verifyOption(int minOption, int maxOption, int option);
 int menu(char* message, char* prompt, char* error, int minOption, int maxOption);
+void pause(char *message);
 
 #endif //C_HANOITOWER_MENUHELPER_H

@@ -52,3 +52,11 @@ bool move(TowersArray *towersArray, int select, int to) {
         return true;
     }
 }
+
+bool isWin(TowersArray *towersArray) {
+    if (towersArray->towers[towersArray->len-1].tower[0] == 1) {
+        return true;
+    } else {
+        return false;
+    }
+}

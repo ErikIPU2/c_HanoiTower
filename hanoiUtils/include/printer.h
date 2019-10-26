@@ -7,7 +7,7 @@
 
 void printTowers(TowersArray*, int selection);
 void printLine(TowersArray*, int index, char style, char emptyStyle);
-void printSelection(TowersArray*, int selection);
+void printSelection(TowersArray*, int selection, char selectionStyle);
 void printNumber(TowersArray*);
 
 #endif //C_HANOITOWER_PRINTER_H
