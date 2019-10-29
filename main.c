@@ -27,7 +27,7 @@ int main() {
 
     setLanguage(0);
 
-    startMenu();
+    startMenu();    
 
-   return 0;
+    return 0;
 }

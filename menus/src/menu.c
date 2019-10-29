@@ -57,14 +57,13 @@ void startGame() {
 
     while (!isWin(&towers)) {
         printTowers(&towers, -1);
-        int selection = menu("", language.promptSelectTower, language.selectTowerError, 1, (towers.len-1));
+        int selection = menu("", language.promptSelectTower, language.selectTowerError, 1, towers.len);
         printTowers(&towers, selection);
-        int selectionTo = menu("", language.promptSelectTower, language.selectTowerError, 1, (towers.len-1));
+        int selectionTo = menu("", language.promptSelectTower, language.selectTowerError, 1, towers.len);
         bool moved = move(&towers, selection, selectionTo);
         if (!moved) {
             printf("%s", language.moveTowerError);
         }
-        //TODO: sdasda
     }
 
 

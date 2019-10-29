@@ -17,10 +17,16 @@ CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../menus/include/menuHel
 CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../structs/tower.c
 CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../structs/towersArray.c
 
+CMakeFiles/c_HanoiTower.dir/main.c.o: ../hanoiUtils/include/gameLogics.h
+CMakeFiles/c_HanoiTower.dir/main.c.o: ../hanoiUtils/include/initTower.h
+CMakeFiles/c_HanoiTower.dir/main.c.o: ../hanoiUtils/include/printer.h
 CMakeFiles/c_HanoiTower.dir/main.c.o: ../main.c
 CMakeFiles/c_HanoiTower.dir/main.c.o: ../menus/include/menu.h
 CMakeFiles/c_HanoiTower.dir/main.c.o: ../menus/lang/include/languages.h
 CMakeFiles/c_HanoiTower.dir/main.c.o: ../structs/styles.c
+CMakeFiles/c_HanoiTower.dir/main.c.o: ../structs/tower.c
+CMakeFiles/c_HanoiTower.dir/main.c.o: ../structs/towersArray.c
+CMakeFiles/c_HanoiTower.dir/main.c.o: ../structs/util/include/creatorHelper.h
 
 CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o: ../menus/lang/include/languages.h
 CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o: ../menus/lang/src/languages.c
