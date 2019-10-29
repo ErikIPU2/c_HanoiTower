@@ -6,6 +6,8 @@
 #define C_HANOITOWER_LANGUAGES_H
 
 #define MAX_LANGUAGE_NUMBER 10
+#define MAX_CHAR 10000
+#define LANGS_DIR "../menus/lang/langs/"
 
 typedef struct {
     char *langName;
@@ -34,6 +36,9 @@ extern LanguageStruct languages[MAX_LANGUAGE_NUMBER];
 
 void addLanguage(LanguageStruct language);
 void loadLanguages(void);
+void readFile(char*);
+LanguageStruct allocLanguageStruct(int);
+bool checkNumberOfLines(char*);
 _Bool setLanguage(int index);
 LanguageStruct getActualLanguage(void);
 char** getLanguages(void);

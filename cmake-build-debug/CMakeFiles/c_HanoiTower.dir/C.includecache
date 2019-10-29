@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
-
-/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/src/printer.c
+/home/erik/CLionProjects/c_HanoiTower/main.c
 stdio.h
+-
+stdlib.h
 -
 stdbool.h
 -
-../../structs/towersArray.c
-/home/erik/CLionProjects/c_HanoiTower/structs/towersArray.c
+menus/lang/include/languages.h
+/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
+menus/include/menu.h
+/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
+string.h
+-
+dirent.h
+-
+
+/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
+../lang/include/languages.h
+/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
 ../../structs/styles.c
 /home/erik/CLionProjects/c_HanoiTower/structs/styles.c
-../../menus/include/menuHelper.h
-/home/erik/CLionProjects/c_HanoiTower/menus/include/menuHelper.h
-../include/printer.h
-/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
 
-/home/erik/CLionProjects/c_HanoiTower/menus/include/menuHelper.h
+/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
 
 /home/erik/CLionProjects/c_HanoiTower/structs/styles.c
-
-/home/erik/CLionProjects/c_HanoiTower/structs/tower.c
-
-/home/erik/CLionProjects/c_HanoiTower/structs/towersArray.c
-tower.c
-/home/erik/CLionProjects/c_HanoiTower/structs/tower.c
 
