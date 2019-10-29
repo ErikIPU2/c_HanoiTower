@@ -56,9 +56,9 @@ void startGame() {
     initTowers(&towers);
 
     while (!isWin(&towers)) {
-        printTowers(&towers, -1);
+        printTowers(&towers, &styles, -1);
         int selection = menu("", language.promptSelectTower, language.selectTowerError, 1, towers.len);
-        printTowers(&towers, selection);
+        printTowers(&towers, &styles, selection);
         int selectionTo = menu("", language.promptSelectTower, language.selectTowerError, 1, towers.len);
         bool moved = move(&towers, selection, selectionTo);
         if (!moved) {
@@ -66,6 +66,8 @@ void startGame() {
         }
     }
 
+    printf("%s\n", language.winMessage);
+    pause(language.promptPause);
 
     freeTowersArray(&towers);
 }

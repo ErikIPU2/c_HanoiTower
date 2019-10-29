@@ -23,6 +23,10 @@ void addLanguage(LanguageStruct language) {
     }
 }
 
+void loadLanguages(void) {
+
+}
+
 bool setLanguage(int index) {
     if (index < languagePointer) {
         actualLanguage = index;

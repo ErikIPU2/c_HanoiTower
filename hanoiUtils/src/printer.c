@@ -5,17 +5,18 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include "../../structs/towersArray.c"
-#include "../../menus/include/menuHelper.h"
+#include "../../structs/styles.c"
 
+#include "../../menus/include/menuHelper.h"
 #include "../include/printer.h"
 
-void printTowers(TowersArray *towersArray, int selection) {
+void printTowers(TowersArray *towersArray, StylesStruct *styles, int selection) {
     clearScreen();
     if (selection > 0 && selection <= towersArray->len) {
-        printSelection(towersArray, selection, '^');
+        printSelection(towersArray, selection, styles->selectionStyle);
     }
     for (int i = 0; i < towersArray->towers->len; i++) {
-        printLine(towersArray, i, '-', '|');
+        printLine(towersArray, i, styles->towerStyle, styles->emptyStyle);
         printf("\n");
     }
     printNumber(towersArray);

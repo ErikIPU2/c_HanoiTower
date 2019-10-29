@@ -15,19 +15,14 @@ CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o
  /home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
  /home/erik/CLionProjects/c_HanoiTower/hanoiUtils/src/printer.c
  /home/erik/CLionProjects/c_HanoiTower/menus/include/menuHelper.h
+ /home/erik/CLionProjects/c_HanoiTower/structs/styles.c
  /home/erik/CLionProjects/c_HanoiTower/structs/tower.c
  /home/erik/CLionProjects/c_HanoiTower/structs/towersArray.c
 CMakeFiles/c_HanoiTower.dir/main.c.o
- /home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/gameLogics.h
- /home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h
- /home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
  /home/erik/CLionProjects/c_HanoiTower/main.c
  /home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
  /home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
  /home/erik/CLionProjects/c_HanoiTower/structs/styles.c
- /home/erik/CLionProjects/c_HanoiTower/structs/tower.c
- /home/erik/CLionProjects/c_HanoiTower/structs/towersArray.c
- /home/erik/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h
 CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o
  /home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
  /home/erik/CLionProjects/c_HanoiTower/menus/lang/src/languages.c

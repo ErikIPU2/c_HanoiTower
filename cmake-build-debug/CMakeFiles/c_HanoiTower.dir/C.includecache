@@ -6,49 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/gameLogics.h
-
-/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h
-
 /home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
 
-/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
-../lang/include/languages.h
-/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
-../../structs/styles.c
-/home/erik/CLionProjects/c_HanoiTower/structs/styles.c
-
-/home/erik/CLionProjects/c_HanoiTower/menus/include/menuHelper.h
-
-/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
-
-/home/erik/CLionProjects/c_HanoiTower/menus/src/menu.c
+/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/src/printer.c
 stdio.h
 -
 stdbool.h
 -
-string.h
--
-stdlib.h
--
-limits.h
--
-../include/menu.h
-/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
-../lang/include/languages.h
-/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
-../include/menuHelper.h
-/home/erik/CLionProjects/c_HanoiTower/menus/include/menuHelper.h
 ../../structs/towersArray.c
 /home/erik/CLionProjects/c_HanoiTower/structs/towersArray.c
-../../structs/util/include/creatorHelper.h
-/home/erik/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h
-../../hanoiUtils/include/printer.h
+../../structs/styles.c
+/home/erik/CLionProjects/c_HanoiTower/structs/styles.c
+../../menus/include/menuHelper.h
+/home/erik/CLionProjects/c_HanoiTower/menus/include/menuHelper.h
+../include/printer.h
 /home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
-../../hanoiUtils/include/initTower.h
-/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h
-../../hanoiUtils/include/gameLogics.h
-/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/gameLogics.h
+
+/home/erik/CLionProjects/c_HanoiTower/menus/include/menuHelper.h
 
 /home/erik/CLionProjects/c_HanoiTower/structs/styles.c
 
@@ -57,6 +31,4 @@ limits.h
 /home/erik/CLionProjects/c_HanoiTower/structs/towersArray.c
 tower.c
 /home/erik/CLionProjects/c_HanoiTower/structs/tower.c
-
-/home/erik/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h
 

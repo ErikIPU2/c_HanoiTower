@@ -6,6 +6,8 @@
 #include "menus/include/menu.h"
 #include <string.h>
 
+#include <dirent.h>
+
 
 int main() {
     LanguageStruct ptbr;
@@ -23,11 +25,24 @@ int main() {
     ptbr.promptSelectTower = "Digite a torre que deseja selecionar: ";
     ptbr.selectTowerError = "Torre selecionada invalida, tente novamente";
     ptbr.moveTowerError = "Voce fez um movimento invalido";
+    ptbr.winMessage = "Parabens, voce ganhou!";
     addLanguage(ptbr);
 
     setLanguage(0);
+//
+//    DIR *d;
+//
+//    struct dirent *dir;
+//    d = opendir(".");
+//    if (d) {
+//        while ((dir = readdir(d)) != NULL) {
+//            printf("%s\n", dir->d_name);
+//        }
+//        closedir(d);
+//    }
 
-    startMenu();    
+
+    startMenu();
 
     return 0;
 }

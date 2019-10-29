@@ -22,6 +22,7 @@ typedef struct {
     char *promptSelectTower;
     char *selectTowerError;
     char *moveTowerError;
+    char *winMessage;
 } LanguageStruct;
 
 extern unsigned int languagePointer;
@@ -32,6 +33,7 @@ extern char** lastLanguageGerate;
 extern LanguageStruct languages[MAX_LANGUAGE_NUMBER];
 
 void addLanguage(LanguageStruct language);
+void loadLanguages(void);
 _Bool setLanguage(int index);
 LanguageStruct getActualLanguage(void);
 char** getLanguages(void);

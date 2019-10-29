@@ -16,10 +16,16 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/c_HanoiTower" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/c_HanoiTower" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanoiUtils/include/printer.h" beforeDir="false" afterPath="$PROJECT_DIR$/hanoiUtils/include/printer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hanoiUtils/src/printer.c" beforeDir="false" afterPath="$PROJECT_DIR$/hanoiUtils/src/printer.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menus/lang/include/languages.h" beforeDir="false" afterPath="$PROJECT_DIR$/menus/lang/include/languages.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menus/lang/src/languages.c" beforeDir="false" afterPath="$PROJECT_DIR$/menus/lang/src/languages.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menus/src/menu.c" beforeDir="false" afterPath="$PROJECT_DIR$/menus/src/menu.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,6 +38,9 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="c_HanoiTower" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -98,7 +107,7 @@
       <workItem from="1566993392558" duration="1302000" />
       <workItem from="1572060167958" duration="822000" />
       <workItem from="1572347335855" duration="1317000" />
-      <workItem from="1572349102266" duration="15000" />
+      <workItem from="1572349102266" duration="2353000" />
     </task>
     <servers />
   </component>
