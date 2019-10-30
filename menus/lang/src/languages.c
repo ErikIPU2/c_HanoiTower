@@ -158,7 +158,6 @@ void parseNewLineCaracters(char* text) {
     while (text[i] != '\0') {
         if (text[i] == '\\') {
             if (text[i+1] == 'n') {
-                printf("%s", "find");
                 cache[counter] = '\n';
                 i++;
             }
@@ -168,6 +167,7 @@ void parseNewLineCaracters(char* text) {
         i++;
         counter++;
     }
+    cache[counter-1] = '\0';
     strcpy(text, cache);
 }
 

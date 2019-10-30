@@ -1,0 +1,15 @@
+en
+Welcome to the tower of hanoi \n1. How to play \n2. Play \n3. Options \n4. Get out
+1. Change language \n2. Change Quantity of towers \n3. Customize tower \n4. Get out
+Type what you want to do:
+You typed an incorrect option, try again \n
+Enter the number of towers, minimum 3, current:% d:
+1. Tower Appearance (Current:% c) \n2. Tower Toothpicks (Current:% c) \n3. Selection (Current:% c) \n4. Exit \n
+Enter the new character:
+Type anything to continue:
+Hanoi Tower is a very simple game \nonde all you have to do is move all parts from Tower 1 to Tower 3 \nBut with the condition that you can't put a bigger piece on top of a smaller one.
+Enter the tower size, minimum 1:
+Enter the tower you want to select:
+Selected tower invalid, try again
+You made an invalid move
+Congratulation, you won!

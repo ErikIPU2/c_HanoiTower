@@ -6,29 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/erik/CLionProjects/c_HanoiTower/main.c
+/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
+
+/home/erik/CLionProjects/c_HanoiTower/menus/lang/src/languages.c
+stdbool.h
+-
+string.h
+-
 stdio.h
 -
 stdlib.h
 -
-stdbool.h
--
-menus/lang/include/languages.h
-/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
-menus/include/menu.h
-/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
-string.h
--
 dirent.h
 -
-
-/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
-../lang/include/languages.h
+../include/languages.h
 /home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
-../../structs/styles.c
-/home/erik/CLionProjects/c_HanoiTower/structs/styles.c
-
-/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
-
-/home/erik/CLionProjects/c_HanoiTower/structs/styles.c
 
