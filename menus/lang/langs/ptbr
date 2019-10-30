@@ -1,0 +1,15 @@
+pt-br
+Seja bem vindo a torre de hanoi\n1. Como jogar\n2. Jogar\n3. Opcoes\n4. Sair
+1. Mudar linguagem\n2. Mudar Quantidade de torres\n3. Personalizar torre\n4. Sair
+Digite o que deseja fazer:
+Voce digitou uma opcao incorreta, tente novamente\n
+Digite a quantidade de torres, minimo 3, atual: %d:
+1. Aparencia da torre (Atual: %c)\n2. Palitos da torre (Atual: %c)\n3. Selecao (Atual: %c)\n4. Sair\n
+Digite o novo caractere:
+Digite qualquer coisa para continuar:
+A torre de Hanoi e um jogo muito simples\nonde basta voce mover todas as pecas da torre 1, para a torre 3\nMas com a condicao que voce nao pode colocar uma peca maior em sima de uma menor
+Digite o tamanho da torre, minimo 1:
+Digite a torre que deseja selecionar:
+Torre selecionada invalida, tente novamente
+Voce fez um movimento invalido
+Parabens, voce ganhou!

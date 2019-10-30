@@ -8,116 +8,129 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug"/>
+				<Option working_dir="/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug"/>
+				<Option working_dir="/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c_HanoiTower">
-				<Option output="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/c_HanoiTower" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/c_HanoiTower" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/dist"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_HanoiTower"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_HanoiTower"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="c_HanoiTower/fast">
-				<Option output="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/c_HanoiTower" prefix_auto="0" extension_auto="0"/>
+				<Option output="/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/c_HanoiTower" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/dist"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_HanoiTower/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_HanoiTower/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug"/>
+				<Option working_dir="/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erikborella/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/erik/CLionProjects/c_HanoiTower/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/gameLogics.h">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/gameLogics.h">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/gameLogics.c">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/src/gameLogics.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/initTower.c">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/src/initTower.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/src/printer.c">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/hanoiUtils/src/printer.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/main.c">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/main.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/menus/lang/include/languages.h">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/menus/lang/src/languages.c">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/menus/include/menuHelper.h">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/tower.c">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/towersArray.c">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/menus/lang/src/languages.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/menus/src/menu.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/structs/util/src/creatorHelper.c">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/menus/src/menuHelper.c">
 			<Option target="c_HanoiTower"/>
 		</Unit>
-		<Unit filename="/home/erikborella/CLionProjects/c_HanoiTower/CMakeLists.txt">
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/structs/styles.c">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/structs/tower.c">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/structs/towersArray.c">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/structs/util/src/creatorHelper.c">
+			<Option target="c_HanoiTower"/>
+		</Unit>
+		<Unit filename="/home/erik/CLionProjects/c_HanoiTower/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

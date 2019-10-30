@@ -2,22 +2,21 @@
 // Created by erikborella on 09/07/19.
 //
 
-#include "stdio.h"
+#include <stdio.h>
+#include <stdbool.h>
 #include "../../structs/towersArray.c"
+#include "../../structs/styles.c"
 
+#include "../../menus/include/menuHelper.h"
 #include "../include/printer.h"
 
-void clearScreen(void) {
-    printf("\033[2J");
-}
-
-void printTowers(TowersArray *towersArray, int selection) {
+void printTowers(TowersArray *towersArray, StylesStruct *styles, int selection) {
     clearScreen();
     if (selection > 0 && selection <= towersArray->len) {
-        printSelection(towersArray, selection);
+        printSelection(towersArray, selection, styles->selectionStyle);
     }
     for (int i = 0; i < towersArray->towers->len; i++) {
-        printLine(towersArray, i, '-', '|');
+        printLine(towersArray, i, styles->towerStyle, styles->emptyStyle);
         printf("\n");
     }
     printNumber(towersArray);
@@ -62,7 +61,7 @@ void printLine(TowersArray *towersArray, int index, char style, char emptyStyle)
 }
 
 
-void printSelection(TowersArray *towersArray, int selection) {
+void printSelection(TowersArray *towersArray, int selection, char selectionStyle) {
     int len = (towersArray->towers->len * 2 - 1) / 2;
 
     for (int cont = 1; cont <= towersArray->len; cont++) {
@@ -71,7 +70,7 @@ void printSelection(TowersArray *towersArray, int selection) {
         }
 
         if (selection == cont) {
-            printf("⌄");
+            printf("%c", selectionStyle);
         } else {
             printf(" ");
         }

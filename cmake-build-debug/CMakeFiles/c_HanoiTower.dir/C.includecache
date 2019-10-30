@@ -6,41 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/gameLogics.h
-
-/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h
-
-/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
-
-/home/erikborella/CLionProjects/c_HanoiTower/main.c
+/home/erik/CLionProjects/c_HanoiTower/main.c
 stdio.h
 -
 stdlib.h
 -
 stdbool.h
 -
-structs/towersArray.c
-/home/erikborella/CLionProjects/c_HanoiTower/structs/towersArray.c
-structs/util/include/creatorHelper.h
-/home/erikborella/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h
-hanoiUtils/include/initTower.h
-/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/initTower.h
-hanoiUtils/include/printer.h
-/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/printer.h
-hanoiUtils/include/gameLogics.h
-/home/erikborella/CLionProjects/c_HanoiTower/hanoiUtils/include/gameLogics.h
 menus/lang/include/languages.h
-/home/erikborella/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
+/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
+menus/include/menu.h
+/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
 string.h
 -
+dirent.h
+-
 
-/home/erikborella/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
+/home/erik/CLionProjects/c_HanoiTower/menus/include/menu.h
+../lang/include/languages.h
+/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
+../../structs/styles.c
+/home/erik/CLionProjects/c_HanoiTower/structs/styles.c
 
-/home/erikborella/CLionProjects/c_HanoiTower/structs/tower.c
+/home/erik/CLionProjects/c_HanoiTower/menus/lang/include/languages.h
 
-/home/erikborella/CLionProjects/c_HanoiTower/structs/towersArray.c
-tower.c
-/home/erikborella/CLionProjects/c_HanoiTower/structs/tower.c
-
-/home/erikborella/CLionProjects/c_HanoiTower/structs/util/include/creatorHelper.h
+/home/erik/CLionProjects/c_HanoiTower/structs/styles.c
 

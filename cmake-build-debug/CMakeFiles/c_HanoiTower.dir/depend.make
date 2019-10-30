@@ -13,20 +13,35 @@ CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/initTower.c.o: ../structs/towersArray
 
 CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../hanoiUtils/include/printer.h
 CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../hanoiUtils/src/printer.c
+CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../menus/include/menuHelper.h
+CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../structs/styles.c
 CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../structs/tower.c
 CMakeFiles/c_HanoiTower.dir/hanoiUtils/src/printer.c.o: ../structs/towersArray.c
 
-CMakeFiles/c_HanoiTower.dir/main.c.o: ../hanoiUtils/include/gameLogics.h
-CMakeFiles/c_HanoiTower.dir/main.c.o: ../hanoiUtils/include/initTower.h
-CMakeFiles/c_HanoiTower.dir/main.c.o: ../hanoiUtils/include/printer.h
 CMakeFiles/c_HanoiTower.dir/main.c.o: ../main.c
+CMakeFiles/c_HanoiTower.dir/main.c.o: ../menus/include/menu.h
 CMakeFiles/c_HanoiTower.dir/main.c.o: ../menus/lang/include/languages.h
-CMakeFiles/c_HanoiTower.dir/main.c.o: ../structs/tower.c
-CMakeFiles/c_HanoiTower.dir/main.c.o: ../structs/towersArray.c
-CMakeFiles/c_HanoiTower.dir/main.c.o: ../structs/util/include/creatorHelper.h
+CMakeFiles/c_HanoiTower.dir/main.c.o: ../structs/styles.c
 
 CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o: ../menus/lang/include/languages.h
 CMakeFiles/c_HanoiTower.dir/menus/lang/src/languages.c.o: ../menus/lang/src/languages.c
+
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../hanoiUtils/include/gameLogics.h
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../hanoiUtils/include/initTower.h
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../hanoiUtils/include/printer.h
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../menus/include/menu.h
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../menus/include/menuHelper.h
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../menus/lang/include/languages.h
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../menus/src/menu.c
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../structs/styles.c
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../structs/tower.c
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../structs/towersArray.c
+CMakeFiles/c_HanoiTower.dir/menus/src/menu.c.o: ../structs/util/include/creatorHelper.h
+
+CMakeFiles/c_HanoiTower.dir/menus/src/menuHelper.c.o: ../menus/include/menuHelper.h
+CMakeFiles/c_HanoiTower.dir/menus/src/menuHelper.c.o: ../menus/src/menuHelper.c
+
+CMakeFiles/c_HanoiTower.dir/structs/styles.c.o: ../structs/styles.c
 
 CMakeFiles/c_HanoiTower.dir/structs/tower.c.o: ../structs/tower.c
 
