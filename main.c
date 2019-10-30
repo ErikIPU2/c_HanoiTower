@@ -11,6 +11,7 @@
 
 int main() {
     loadLanguages();
+    setLanguage(0);
     startMenu();
 
     return 0;

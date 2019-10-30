@@ -39,6 +39,7 @@ void loadLanguages(void);
 void readFile(char*);
 LanguageStruct allocLanguageStruct(int);
 bool checkNumberOfLines(char*);
+void parseNewLineCaracters(char*);
 _Bool setLanguage(int index);
 LanguageStruct getActualLanguage(void);
 char** getLanguages(void);

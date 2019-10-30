@@ -54,6 +54,7 @@ void readFile(char* fileName) {
     } else if (checkNumberOfLines(filePath)) {
         int lineCounter = 0;
         while (fgets(str, MAX_CHAR, fp) != NULL) {
+            parseNewLineCaracters(str);
             switch (lineCounter) {
                 case 0:
                     strcpy(language.langName, str);
@@ -149,6 +150,25 @@ LanguageStruct allocLanguageStruct(int size) {
     language.winMessage = (char*) malloc(ALLOC_SIZE);
 
     return language;
+}
+
+void parseNewLineCaracters(char* text) {
+    int i = 0, counter = 0;
+    char cache[MAX_CHAR] = "";
+    while (text[i] != '\0') {
+        if (text[i] == '\\') {
+            if (text[i+1] == 'n') {
+                printf("%s", "find");
+                cache[counter] = '\n';
+                i++;
+            }
+        } else {
+            cache[counter] = text[i];
+        }
+        i++;
+        counter++;
+    }
+    strcpy(text, cache);
 }
 
 
